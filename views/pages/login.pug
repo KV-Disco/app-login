@@ -7,7 +7,7 @@ block content
         form.form-horizontal(action='/loginForm', method='POST')
           fieldset
             #legend
-              legend Login
+              h1.title Login
             .control-group
               // Username
               label.control-label(for='username') Username
@@ -22,4 +22,5 @@ block content
               // Button
               .controls
                 button.btn.btn-success Login
-        a(href='/sign-up') Sign-Up
+        .link
+          a(href='/sign-up') Sign-Up

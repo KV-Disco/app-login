@@ -1,4 +1,30 @@
-/*body{
+body{
 	background-color: #511A6D;
-	color: white
-}*/
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn{
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.link{
+	margin-top: 10px;
+}
+
+.link>a{
+	font-weight: bold;
+	color: white;
+}
+
+.goBack{
+	margin-right: 30px
+}
+
+input{
+	color: black;
+	font-weight: bold;
+}
